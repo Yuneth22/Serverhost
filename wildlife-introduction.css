@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Set background color to black */
+    background-image: url('testin.webp');
+    color: #fff; /* Set text color to white for better visibility */
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background for better readability in the header */
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+section {
+    margin: 20px;
+}
+
+.wildlife-location {
+    border: 1px solid #333; /* Dark border for wildlife locations */
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    background-color: rgba(34, 34, 34, 0.8); /* Dark background color with 80% opacity */
+    color: #fff; /* White text color for wildlife locations */
+    text-align: center;
+}
+
+.location-info {
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: rgba(34, 34, 34, 0.8); /* Dark background color with 80% opacity */
+
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #555; /* Slightly lighter border color for table */
+}
+
+th {
+    background-color: #555; /* Darker background color for table headings */
+    color: #fff;
+}
+
+tfoot {
+    background-color: #555; /* Darker background color for table footer */
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #000 !important; /* Black background with !important */
+    padding: 10px;
+}
+
+.search-bar {
+    margin-right: auto; /* Push the search bar to the left */
+    padding: 5px;
+}
+
+.search-bar input {
+    width: 150px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff !important; /* White text color with !important */
+    padding: 10px;
+    margin: 0 10px !important; /* Adjusted margin with !important */
+    background-color: #000000 !important; /* Black background with !important */
+    transition: background-color 0.3s; /* Smooth transition on background color change */
+}
+
+nav a:hover {
+    background-color: #cbbfbf; /* Lighter color on hover for better visibility */
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #cbbfbf;
+    box-shadow: 0 8px 16px rgba(172, 164, 164, 0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    display: block;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    background-color: #666;
+}
+
+
